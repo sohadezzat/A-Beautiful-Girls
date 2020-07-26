@@ -1,3 +1,47 @@
+.google-nav{
+    padding-left: 1135px;
+    padding-top: 20px;
+ 
+}
+.google-g{
+    color: black;
+    margin-right: 10px;
+    font-size: 13px;
+    font-family: arial;
+    text-decoration: none;
+    
+}
+.google-g:hover{
+border-bottom: 1px solid;
+padding-bottom: 0px;
+}
+.google-img{
+width: 25px;
+height: 25px;
+margin-right: 10px;
+
+}
+.img{
+    width: 22px;
+    height: 22px;
+    margin: -20px auto 15px 105px;
+}
+.google-sign{
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    margin: -45px 0px 0px 145px;
+    width: 31px;
+    height: 31px;
+    margin-right: 10px;
+}
+.photo{
+   width: 28px;
+    height: 28px;
+    margin-left: -3px;
+    margin-top: 2px;
+    border-radius: 50%;
+}
 .google-image{
     position: absolute;
     left: 50%;
@@ -47,4 +91,71 @@
         height:25px;
         width:20px;
         margin-right: 20px;
+    }
+    .google{
+        display: grid;
+        grid-template-columns: ifr ifr ifr;
+        grid-template-rows: 200px 70px 70px 200px;
+    }
+    .google-id{
+        padding-top: 360px;
+    }
+    .google-search-but{
+        width: 106px;
+        height: 36px;
+        text-decoration: none;
+        color: gray;
+        
+    }
+    .random-search-button{
+        height: 36px;
+        color: gray;
+        margin-left: 2%;
+    }
+    .google-text{
+        margin-right: 10px;
+        
+    }
+    .div-one{
+        position: absolute;
+        height: 30px;
+        width: 100%;
+        background-color: rgba(223, 219,219, 0.822);
+        border: 2px solid rgb(216, 216, 216);
+        display: flex;
+        bottom: 30px;
+    }
+    .Palestine{
+        text-decoration: none;
+        color: rgb(68, 67, 67);
+        padding: 10px;
+    
+    }
+    .flix{
+    
+       color: black;
+    padding: 10px;
+    text-decoration: none;   
+    }
+    .flixtwo{
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+    
+    }
+    .linksleft{
+        position: absolute;
+        left: 83%;
+        right: 0%;
+    
+    }
+    .div-two{
+        position: absolute;
+        height: 30px;
+        width: 100%;
+        background-color: rgba(223, 219,219, 0.822);
+        border: rgb(216, 216, 216);
+        padding: 2px;
+        display: flex;
+        bottom: 0;
     }
